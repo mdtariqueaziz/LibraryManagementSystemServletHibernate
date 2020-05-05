@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login page</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+.container {
+	width: 40%;
+	background-color: wheat;
+	
+	padding: 20px;
+	
+}
+
+h1 {
+	background-color: blue;
+	text-align: center;
+	padding: 20px;
+	color: white;
+}
+
+</style>
+<body>
+<h1 style="background-color: black;">Library Managemenet System</h1>
+	<div class="container">
+		<h1>Login Page</h1>
+		<form action="Login">
+			<div class="form-group">
+				<label>Enter Username</label> <input type="text"
+					class="form-control" name="username">
+			</div>
+			<div class="form-group">
+				<label>Enter Password</label> <input type="password"
+					class="form-control" name="password">
+			</div>
+			<div class="form-check">
+				<label class="form-check-label" for="radio2"> <input
+					type="radio" class="form-check-input" id="radio2" name="userType"
+					value="admin" checked="checked">Admin Login
+				</label>
+			</div>
+			<div class="form-check">
+				<label class="form-check-label"> <input type="radio"
+					class="form-check-input" name="userType" value="librarian">Librarian
+					Login
+				</label>
+			</div>
+			<input type="submit" value="Submit" class="btn btn-primary">
+
+
+		</form>
+
+
+	</div>
+</body>
+</html>
