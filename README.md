@@ -9,6 +9,7 @@
 <img src="ScreenShort/AddLibrary.JPG">
 <img src="ScreenShort/ViewLibrarian.JPG">
 <img src="ScreenShort/Capture2.JPG">
-<img src="ScreenShort/LibraryHome.JPG">
+<img src="ScreenShort/AddBook.JPG">
+<img src="ScreenShort/ViewBook.JPG">
 
 
