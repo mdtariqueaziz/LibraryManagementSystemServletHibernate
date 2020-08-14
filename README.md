@@ -11,5 +11,7 @@
 <img src="ScreenShort/Capture2.JPG">
 <img src="ScreenShort/AddBook.JPG">
 <img src="ScreenShort/ViewBook.JPG">
+<img src="ScreenShort/ViewIssuedBook.JPG">
+<img src="ScreenShort/ReturnedBook.JPG">
 
 
